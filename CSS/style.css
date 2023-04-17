@@ -1,0 +1,214 @@
+/* estilos generales*/
+
+* {
+    margin: 0;
+    padding: 0;
+    color: black !important;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(#3e3e3e 60%, #959595);
+    min-height: 10vh;
+}
+
+.redes,
+.terminos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes div {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    margin: 10px;
+}
+
+.redes a {
+    text-decoration: none;
+    color: black;
+}
+
+.terminos p {
+    margin: 10px;
+}
+
+main img {
+    width: 90vw;
+    margin: auto;
+}
+
+.header-flex {
+    margin: 20px;
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 5vh;
+    flex-wrap: wrap ;
+}
+
+.header-flex a {
+    text-decoration: none;
+}
+
+h1 {
+    width: 100vw;
+    padding: 15px;
+}
+
+.ul-flex {
+    display: flex;
+    align-items: center;
+    width: 450px;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-bottom: 0 !important;
+}
+
+.ul-flex a {
+    text-decoration: none;
+}
+
+/* estilos index */
+.index {
+    margin: 20px;
+    background-color: aliceblue;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.secciones-index {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    width: 90vw;
+    margin: auto;
+    padding: 30px;
+    
+}
+
+
+
+/* estilos como comprar */
+.como-comprar {
+    margin: 20px;
+    color: black;
+    background-image: linear-gradient(#3e3e3e 60%, #959595);
+    text-align: center;
+    padding: 25px;
+    min-height: 85vh; 
+}
+
+.section-comprar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 600px;    
+}
+
+.ol-comprar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.negrita {
+    font-weight: bold;
+    padding: 15px;
+}
+
+/* estilos paletas */
+.paletas {
+    margin: auto;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    padding: 30px;
+    max-width: 90vw;
+}
+
+.h1 {
+    width: 100vw;
+    margin: 10px;
+    
+}
+.loc{
+    margin-top: 30px;
+
+}
+
+/* estilos bolsos */
+
+.bolsos {
+    display: flex !important;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 90vw;
+    margin: auto;
+    min-height: 85vh;
+    box-sizing: unset;
+    padding: 30px;
+}
+
+.alineacion{
+    flex: none !important;
+}
+ .altura{
+    box-sizing: content-box !important;
+    margin-top: 30px;
+ }
+
+/* estilos contacto */
+.contacto {
+    margin: 20px;
+    padding: 20px;
+    background-image: linear-gradient(#3e3e3e 60%, #959595);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.enviar-contacto {
+    width: 80px;
+}
+
+.enviar-contacto:focus {
+    background-color: rgb(0, 85, 255);
+    transform: scale(1.01);
+    font-weight: bold;
+    transition: .3s;
+}
+
+
+
+.input2:hover {
+    background-color: antiquewhite;
+    transform: scale(1.01);
+    transition: .3s;
+}
+
+@media(max-width:597px){
+    .header-flex{
+        justify-content: center;
+    }
+}
