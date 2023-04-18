@@ -10,22 +10,40 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./CSS/style.css">
     <title> BRANDPADEL Inicio</title>
-     <!-- encabezado -->
+</head>
+
+<body>
+
+
+    <!-- encabezado -->
     <header class="header-flex">
-        <!-- logo barra de navegacion -->
-        <a href="./index.html"> BRANDPADEL</a>
-
-        <nav>
-            <!-- agregando lista -->
-            <ul class="ul-flex">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/como-comprar.html">Como comprar</a></li>
-                <li><a href="./pages/paletas.html">Paletas</a></li>
-                <li><a href="./pages/bolsos.html">Bolsos</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
-
-
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">BRANDPADEL</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/como-comprar.html">Como Comprar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/paletas.html">Paletas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/bolsos.html">Bolsos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
 
     </header>
@@ -54,7 +72,8 @@
                 <img src="./imagenes/royal toro.jpg" class="card-img-top" alt="paleta royal">
                 <div class="card-body">
                     <h5 class="card-title">Paleta Royal Toro Black</h5>
-                    <p class="card-text">Esta paleta cuenta con una variedad de tecnología que lo ayudará a llevar su juego al siguiente nivel</p>
+                    <p class="card-text">Esta paleta cuenta con una variedad de tecnología que lo ayudará a llevar su
+                        juego al siguiente nivel</p>
                     <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
@@ -78,6 +97,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
-    </body>
+</body>
+
 
 </html>

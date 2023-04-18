@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    color: black !important;
+    
 }
 
 .footer {
@@ -21,7 +21,7 @@
 
 .redes div {
     padding: 10px;
-    border-radius: 50%;
+    border-radius:100%;
     background-color: white;
     color: black;
     margin: 10px;
@@ -60,19 +60,7 @@ h1 {
     padding: 15px;
 }
 
-.ul-flex {
-    display: flex;
-    align-items: center;
-    width: 450px;
-    justify-content: space-evenly;
-    list-style: none;
-    flex-wrap: wrap;
-    margin-bottom: 0 !important;
-}
 
-.ul-flex a {
-    text-decoration: none;
-}
 
 /* estilos index */
 .index {
@@ -239,6 +227,7 @@ h1 {
     display: flex;
     align-items: center;
     flex-direction: column;
+    color: black;
 
 }
 
@@ -261,11 +250,7 @@ h1 {
     transition: .3s;
 }
 
-@media(max-width:597px){
-    .header-flex{
-        justify-content: center;
-    }
-}
+
 
 @media(max-width:988px){
     .grid-container{
