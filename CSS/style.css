@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    
+
 }
 
 .footer {
@@ -21,7 +21,7 @@
 
 .redes div {
     padding: 10px;
-    border-radius:100%;
+    border-radius: 100%;
     background-color: white;
     color: black;
     margin: 10px;
@@ -41,7 +41,7 @@ main img {
     margin: auto;
 }
 
-.header-flex{
+.header-flex {
     padding: 20px;
 }
 
@@ -61,7 +61,7 @@ h1 {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    
+
 }
 
 .secciones-index {
@@ -73,15 +73,15 @@ h1 {
     width: 90vw;
     margin: auto;
     padding: 30px;
-    
+
 }
 
-.section-comprar{
+.section-comprar {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 600px;    
+    height: 600px;
     background-image: linear-gradient(#3e3e3e 60%, #959595);
     text-align: center;
     min-width: 90vw;
@@ -103,16 +103,70 @@ h1 {
 }
 
 /* estilos accesorios */
-.como-comprar {
-    margin: 20px;
+.accesorios {
+    margin: auto;
     color: black;
-    background-image: linear-gradient(#3e3e3e 60%, #959595);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+    
     text-align: center;
-    padding: 25px;
-    min-height: 85vh; 
 }
 
+.container-accesorios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+        "accesorio1 accesorio2 accesorio3"
+        "accesorio4 accesorio5 accesorio6"
+        "accesorio7 accesorio8 accesorio9"
+        "accesorio10 accesorio10 accesorio10";
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.664);
+    margin: auto;
+}
 
+.accesorio1 {
+    grid-area: accesorio1;
+}
+
+.accesorio2 {
+    grid-area: accesorio2;
+}
+
+.accesorio3 {
+    grid-area: accesorio3;
+}
+
+.accesorio4 {
+    grid-area: accesorio4;
+}
+
+.accesorio5 {
+    grid-area: accesorio5;
+}
+
+.accesorio6 {
+    grid-area: accesorio6;
+}
+
+.accesorio7 {
+    grid-area: accesorio7;
+}
+
+.accesorio8 {
+    grid-area: accesorio8;
+}
+
+.accesorio9 {
+    grid-area: accesorio9;
+}
+
+.accesorio10 {
+    grid-area: accesorio10;
+}
 
 
 /* estilos paletas */
@@ -122,56 +176,66 @@ h1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    text-align: center;
     justify-content: space-around;
     padding: 30px;
     max-width: 90vw;
+    text-align: center;
 }
 
-.grid-container{
+.grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: 
-    "producto1 producto2 producto3"
-    "producto4 producto5 producto6"
-    "producto7 producto7 producto7";
+    grid-template-areas:
+        "producto1 producto2 producto3"
+        "producto4 producto5 producto6"
+        "producto7 producto7 producto7";
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.664);
 }
-.producto1{
+
+.producto1 {
     grid-area: producto1;
 }
-.producto2{
+
+.producto2 {
     grid-area: producto2;
 }
-.producto3{
+
+.producto3 {
     grid-area: producto3;
 }
-.producto4{
+
+.producto4 {
     grid-area: producto4;
 }
-.producto5{
+
+.producto5 {
     grid-area: producto5;
 }
-.producto6{
+
+.producto6 {
     grid-area: producto6;
 }
-.producto7{
+
+.producto7 {
     grid-area: producto7;
 }
+
 .h1 {
     width: 100vw;
     margin: 10px;
-    
+
+
 }
-.loc{
+
+.loc {
     margin: 10px;
 }
 
 /* estilos bolsos */
 
 .bolsos {
-    display: flex ;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
@@ -180,39 +244,60 @@ h1 {
     min-height: 85vh;
     box-sizing: unset;
     padding: 30px;
+    text-align: center;
 }
 
-.grid-container-bolsos{
+.grid-container-bolsos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: 
-    "bolso1 bolso2"
-    "bolso3 bolso4";
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+        "bolso1 bolso2"
+        "bolso3 bolso4"
+        "bolso5 bolso6"
+        "bolso7 bolso7";
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.664);
     width: 800px;
     margin: auto;
     background-size: cover;
 }
-.bolso1{
+
+.bolso1 {
     grid-area: bolso1;
 }
-.bolso2{
+
+.bolso2 {
     grid-area: bolso2;
 }
-.bolso3{
+
+.bolso3 {
     grid-area: bolso3;
 }
-.bolso4{
+
+.bolso4 {
     grid-area: bolso4;
 }
-.alineacion{
+
+.bolso5 {
+    grid-area: bolso5;
+}
+
+.bolso6 {
+    grid-area: bolso6;
+}
+
+.bolso7 {
+    grid-area: bolso7;
+}
+
+.alineacion {
     flex: none !important;
 }
- .altura{
+
+.altura {
     box-sizing: content-box !important;
     margin: 20px auto;
- }
+}
 
 /* estilos contacto */
 .contacto {
@@ -248,40 +333,74 @@ h1 {
 
 
 
-@media(max-width:988px){
-    .grid-container{
+@media(max-width:988px) {
+    .grid-container {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 1fr);
-        grid-template-areas: 
-        "producto1 producto2"
-        "producto3 producto4"
-        "producto5 producto6"
-        "producto7 producto7";
+        grid-template-areas:
+            "producto1 producto2"
+            "producto3 producto4"
+            "producto5 producto6"
+            "producto7 producto7";
     }
 }
 
-@media(max-width:715px){
-    .grid-container{
+@media(max-width:715px) {
+    .grid-container {
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(7. 1fr);
-        grid-template-areas: 
-        "producto1"
-        "producto2"
-        "producto3"
-        "producto4"
-        "producto5"
-        "producto6"
-        "producto7";
+        grid-template-rows: repeat(7, 1fr);
+        grid-template-areas:
+            "producto1"
+            "producto2"
+            "producto3"
+            "producto4"
+            "producto5"
+            "producto6"
+            "producto7";
     }
 }
-@media(max-width:730px){
-    .grid-container-bolsos{
+
+@media(max-width:730px) {
+    .grid-container-bolsos {
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: repeat(7, 1fr);
         grid-template-areas:
-        "bolso1"
-        "bolso2"
-        "bolso3"
-        "bolso4";
+            "bolso1"
+            "bolso2"
+            "bolso3"
+            "bolso4"
+            "bolso5"
+            "bolso6"
+            "bolso7";
+    }
+}
+
+@media(max-width:1019px){
+    .container-accesorios{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas:
+        "accesorio1 accesorio2"
+        "accesorio3 accesorio4"
+        "accesorio5 accesorio6"
+        "accesorio7 accesorio8"
+        "accesorio9 accesorio10";
+    }
+}
+@media(max-width:700px){
+    .container-accesorios{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(10,1fr);
+        grid-template-areas:
+        "accesorio1"
+        "accesorio2"
+        "accesorio3"
+        "accesorio4"
+        "accesorio5"
+        "accesorio6"
+        "accesorio7"
+        "accesorio8"
+        "accesorio9"
+        "accesorio10" ;
     }
 }
