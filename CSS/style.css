@@ -41,18 +41,8 @@ main img {
     margin: auto;
 }
 
-.header-flex {
-    margin: 20px;
-    display: flex;
-    align-content: space-around;
-    align-items: center;
-    justify-content: space-between;
-    min-height: 5vh;
-    flex-wrap: wrap ;
-}
-
-.header-flex a {
-    text-decoration: none;
+.header-flex{
+    padding: 20px;
 }
 
 h1 {
@@ -86,24 +76,17 @@ h1 {
     
 }
 
-
-
-/* estilos como comprar */
-.como-comprar {
-    margin: 20px;
-    color: black;
-    background-image: linear-gradient(#3e3e3e 60%, #959595);
-    text-align: center;
-    padding: 25px;
-    min-height: 85vh; 
-}
-
 .section-comprar{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
     height: 600px;    
+    background-image: linear-gradient(#3e3e3e 60%, #959595);
+    text-align: center;
+    min-width: 90vw;
+    color: black;
+    margin: 10px;
 }
 
 .ol-comprar {
@@ -118,6 +101,19 @@ h1 {
     font-weight: bold;
     padding: 15px;
 }
+
+/* estilos accesorios */
+.como-comprar {
+    margin: 20px;
+    color: black;
+    background-image: linear-gradient(#3e3e3e 60%, #959595);
+    text-align: center;
+    padding: 25px;
+    min-height: 85vh; 
+}
+
+
+
 
 /* estilos paletas */
 .paletas {
