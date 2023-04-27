@@ -43,11 +43,17 @@ main img {
 
 .header-flex {
     padding: 20px;
+    max-width: 90vw;
+    margin: auto;
 }
 
 h1 {
     width: 100vw;
     padding: 15px;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
 }
 
 
